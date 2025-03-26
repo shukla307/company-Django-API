@@ -74,6 +74,41 @@ The server will run at http://127.0.0.1:8000/
 
 
 
+# API Endpoints
+### 1. Create a Task
+
+URL: POST /api/tasks/create/
+Description: Creates a new task.
+Request Body
+{
+    "name": "Complete Project",
+    "description": "Finish the task management system",
+    "task_type": "urgent",
+    "assigned_user_ids": [1]
+}
+
+Response: 
+
+# Assign a Task to Users
+### URL: PUT /api/tasks/<task_id>/assign/
+
+Description: Assigns a task to one or more users.
+
+Request Body:
+{
+    "assigned_user_ids": [1, 2]
+}
+
+
+# 3. Get Tasks for a Specific User
+### URL: GET /api/users/<user_id>/tasks/
+
+Description: Retrieves all tasks assigned to a specific user.
+
+Response:
+
+
+
 <img width="954" alt="image" src="https://github.com/user-attachments/assets/a87a1ea4-dd41-428d-b64f-9c48da6927b2" />
 
 
