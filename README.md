@@ -14,28 +14,6 @@ JoshProject is a task management application built with Django and Django REST F
 - **Database:** SQLite (default, can be configured for other databases like PostgreSQL)
 - **Python Version:** 3.8 or higher
 
-## Project Structure
-
-joshproject/
-├── joshproject/
-│   ├── init.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── tasks/
-│   ├── init.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── migrations/
-│   ├── models.py
-│   ├── serializers.py
-│   ├── urls.py
-│   └── views.py
-├── README.md
-├── requirements.txt
-└── manage.py
-
-
 
 ## Setup Instructions
 
@@ -107,6 +85,7 @@ Description: Retrieves all tasks assigned to a specific user.
 
 Response:
 
+<img width="1059" alt="image" src="https://github.com/user-attachments/assets/1518fccb-e974-447c-960a-70662f97b08e" />
 
 
 <img width="954" alt="image" src="https://github.com/user-attachments/assets/a87a1ea4-dd41-428d-b64f-9c48da6927b2" />
